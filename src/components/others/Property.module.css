@@ -1,0 +1,65 @@
+.card {
+  /* max-height: 300px; */
+  /* height: 300px; */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 1rem;
+}
+
+.favouriteButton {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.infoHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.homeInfo h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #7065e7;
+}
+.homeInfo h4 span {
+  color: #ccc;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.homeInfo h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.area p sup {
+  font-size: 0.5rem;
+}
+.area p {
+  display: flex;
+  gap: 0.5rem;
+}

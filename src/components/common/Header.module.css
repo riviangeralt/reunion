@@ -1,0 +1,36 @@
+.header {
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #f0f0f0;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.menuItem {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #6d7077;
+  text-decoration: none;
+}
+.menuItem:hover,
+.menuItemActive {
+  background-color: #e9e7fa;
+  color: #928ac4;
+  border-radius: 5px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  text-decoration: none;
+}
